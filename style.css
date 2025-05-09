@@ -1,0 +1,91 @@
+.background {
+    background-color: black;
+  }
+  
+  .table-container {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .card-deck{
+    position: absolute;
+    bottom: 9%;
+    left: 43%;
+    width: 70px;
+    height: 110px;
+  }
+  .card-deck1{
+    position: absolute;
+    bottom: 9%;
+    left: 51%;
+    width: 70px;
+    height: 110px;
+  }
+
+  #b-table {
+    display: block;
+    margin: 0 auto;
+    width: 1000px;
+    border-radius: 158px; 
+    overflow: hidden;
+  }
+  
+  
+  .dealer {
+    position: absolute;
+    top: 2%;     
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-shadow: 0 0 10px black;
+  }
+  
+  .header-text {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    animation: colorPulse 3s infinite;
+  }
+  
+  /* Neon Text Animation */
+  @keyframes colorPulse {
+    0% {
+      color: #ffffff;
+      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+    }
+    25% {
+      color: #c06c84;
+      text-shadow: 0 0 5px #c06c84, 0 0 10px #c06c84;
+    }
+    50% {
+      color: #6c5b7b;
+      text-shadow: 0 0 5px #6c5b7b, 0 0 10px #6c5b7b;
+    }
+    75% {
+      color: #3cb371;
+      text-shadow: 0 0 5px #3cb371, 0 0 10px #3cb371;
+    }
+    100% {
+      color: #ffffff;
+      text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+    }
+  }
+  
+  .hit{
+  position: absolute;
+  display: block;
+  top: 250px;   /* adjust as needed */
+  left: 750px;  /* adjust as needed */
+  width: 50px;
+  height: 50px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  }
+
+  .hidden{
+    display: none;
+  }
